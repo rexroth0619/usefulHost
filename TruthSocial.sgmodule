@@ -1,8 +1,6 @@
 #!name=Truth Social
 #!desc=解锁Truth美国
 
-广告
-
 [Rule]
 AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
 

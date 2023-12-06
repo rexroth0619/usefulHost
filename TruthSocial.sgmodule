@@ -15,4 +15,4 @@ AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
 (?<=timezone=)8(?=&) url 307 -4
 
 [MITM]
-hostname = *.truthsocial.com
+hostname = %APPEND% *.truthsocial.com
